@@ -1,0 +1,1405 @@
+#guppy: 
+
+
+/N/project/Mammalian_Genomics/MAMMALEXP/Nanopore_raw_data/Th1cDNAPCR-032019/20190320_2129_MN29158_FAK53826_98f8d149
+
+---------------------
+
+/N/project/Mammalian_Genomics/MAMMALEXP/Nanopore_raw_data/Th1cDNAPCR-032019/20190320_2129_MN29158_FAK53826_98f8d149/fast5_fail
+
+/N/project/Mammalian_Genomics/MAMMALEXP/Nanopore_raw_data/Th1cDNAPCR-032019/20190320_2129_MN29158_FAK53826_98f8d149/fast5_pass
+
+----------------------------------------------------------------------------
+
+Submit jobs on Carbonate: 
+
+touch th_p_0.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_0
+#SBATCH --output=th1_p0_out
+#SBATCH --error=th1_p0_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_0 -s /N/slate/allap/Tcell/Th1/th_p_0 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_0.script
+
+sbatch th_p_0.script ----- job number: 1060913 completed 
+
+-------------------------------------
+
+touch th_p_1.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_1
+#SBATCH --output=th1_p1_out
+#SBATCH --error=th1_p1_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_1 -s /N/slate/allap/Tcell/Th1/th_p_1 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_1.script
+
+sbatch th_p_1.script ----- job number: 1060914 - completed 
+
+-------------------------------------
+
+touch th_p_2.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_2
+#SBATCH --output=th1_p2_out
+#SBATCH --error=th1_p2_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_2 -s /N/slate/allap/Tcell/Th1/th_p_2 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_2.script
+
+sbatch th_p_2.script ----- job number: 1060915 completed 
+
+-------------------------------------
+
+touch th_p_3.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_3
+#SBATCH --output=th1_p3_out
+#SBATCH --error=th1_p3_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_3 -s /N/slate/allap/Tcell/Th1/th_p_3 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_3.script
+
+sbatch th_p_3.script ----- job number: 1060916 completed 
+
+-------------------------------------
+
+touch th_p_4.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_4
+#SBATCH --output=th1_p4_out
+#SBATCH --error=th1_p4_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_4 -s /N/slate/allap/Tcell/Th1/th_p_4 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_4.script
+
+sbatch th_p_4.script ----- job number: 1060917 completed 
+
+-------------------------------------
+
+touch th_p_5.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_5
+#SBATCH --output=th1_p5_out
+#SBATCH --error=th1_p5_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_5 -s /N/slate/allap/Tcell/Th1/th_p_5 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_5.script
+
+sbatch th_p_5.script ----- job number: 1060918 completed 
+
+-------------------------------------
+
+touch th_p_6.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_6
+#SBATCH --output=th1_p6_out
+#SBATCH --error=th1_p6_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_6 -s /N/slate/allap/Tcell/Th1/th_p_6 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_6.script
+
+sbatch th_p_6.script ----- job number: 1060919 completed 
+
+
+-------------------------------------
+
+touch th_p_7.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_7
+#SBATCH --output=th1_p7_out
+#SBATCH --error=th1_p7_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_7 -s /N/slate/allap/Tcell/Th1/th_p_7 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_7.script
+
+sbatch th_p_7.script ----- job number: 1060920 completed 
+
+-------------------------------------
+
+touch th_p_8.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_8
+#SBATCH --output=th1_p8_out
+#SBATCH --error=th1_p8_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_8 -s /N/slate/allap/Tcell/Th1/th_p_8 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_8.script
+
+sbatch th_p_8.script ----- job number: 1060921 competed 
+
+-------------------------------------
+
+touch th_p_9.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_9
+#SBATCH --output=th1_p9_out
+#SBATCH --error=th1_p9_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_9 -s /N/slate/allap/Tcell/Th1/th_p_9 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_9.script
+
+sbatch th_p_9.script ----- job number: 1060922 completed 
+
+-------------------------------------
+
+touch th_p_10.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_10
+#SBATCH --output=th1_p10_out
+#SBATCH --error=th1_p10_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_10 -s /N/slate/allap/Tcell/Th1/th_p_10 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_10.script
+
+sbatch th_p_10.script ----- job number: 1060923 completed 
+
+-------------------------------------
+
+touch th_p_11.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_11
+#SBATCH --output=th1_p11_out
+#SBATCH --error=th1_p11_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_11 -s /N/slate/allap/Tcell/Th1/th_p_11 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_11.script
+
+sbatch th_p_11.script ----- job number: 1060924 completed 
+
+-------------------------------------
+
+touch th_p_12.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_12
+#SBATCH --output=th1_p12_out
+#SBATCH --error=th1_p12_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_12 -s /N/slate/allap/Tcell/Th1/th_p_12 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_12.script
+
+sbatch th_p_12.script ----- job number: 1060926 completed 
+
+-------------------------------------
+
+touch th_p_13.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_13
+#SBATCH --output=th1_p13_out
+#SBATCH --error=th1_p13_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_13 -s /N/slate/allap/Tcell/Th1/th_p_13 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_13.script
+
+sbatch th_p_13.script ----- job number: 1060927 completed 
+
+-------------------------------------
+
+touch th_p_14.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_14
+#SBATCH --output=th1_p14_out
+#SBATCH --error=th1_p14_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_14 -s /N/slate/allap/Tcell/Th1/th_p_14 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_14.script
+
+sbatch th_p_14.script ----- job number: 1060928 completed 
+
+-------------------------------------
+
+touch th_p_15.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_15
+#SBATCH --output=th1_p15_out
+#SBATCH --error=th1_p15_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_15 -s /N/slate/allap/Tcell/Th1/th_p_15 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_15.script
+
+sbatch th_p_15.script ----- job number: 1060929 completed 
+
+-------------------------------------
+
+touch th_p_16.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_16
+#SBATCH --output=th1_p16_out
+#SBATCH --error=th1_p16_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_16 -s /N/slate/allap/Tcell/Th1/th_p_16 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_16.script
+
+sbatch th_p_16.script ----- job number: 1060930 completed 
+
+-------------------------------------
+
+touch th_p_17.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_17
+#SBATCH --output=th1_p17_out
+#SBATCH --error=th1_p17_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_17 -s /N/slate/allap/Tcell/Th1/th_p_17 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_17.script
+
+sbatch th_p_17.script ----- job number: 1060931 completed 
+
+-------------------------------------
+
+touch th_p_18.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_18
+#SBATCH --output=th1_p18_out
+#SBATCH --error=th1_p18_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_18 -s /N/slate/allap/Tcell/Th1/th_p_18 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_18.script
+
+sbatch th_p_18.script ----- job number: 1060997 completed 
+
+-------------------------------------
+
+touch th_p_19.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_19
+#SBATCH --output=th1_p19_out
+#SBATCH --error=th1_p19_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_19 -s /N/slate/allap/Tcell/Th1/th_p_19 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_19.script
+
+sbatch th_p_19.script ----- job number: 1060999 completed 
+
+-------------------------------------
+
+touch th_p_20.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_20
+#SBATCH --output=th1_p20_out
+#SBATCH --error=th1_p20_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_20 -s /N/slate/allap/Tcell/Th1/th_p_20 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_20.script
+
+sbatch th_p_20.script ----- job number: 1061000 completed 
+
+-------------------------------------
+
+touch th_p_21.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_21
+#SBATCH --output=th1_p21_out
+#SBATCH --error=th1_p21_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_21 -s /N/slate/allap/Tcell/Th1/th_p_21 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_21.script
+
+sbatch th_p_21.script ----- job number: 1061003 completed 
+
+-------------------------------------
+
+touch th_p_22.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_22
+#SBATCH --output=th1_p22_out
+#SBATCH --error=th1_p22_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_22 -s /N/slate/allap/Tcell/Th1/th_p_22 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_22.script
+
+sbatch th_p_22.script ----- job number: 1061004 completed 
+
+-------------------------------------
+
+touch th_p_23.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_23
+#SBATCH --output=th1_p23_out
+#SBATCH --error=th1_p23_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_23 -s /N/slate/allap/Tcell/Th1/th_p_23 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_23.script
+
+sbatch th_p_23.script ----- job number: 1061005 completed 
+
+-------------------------------------
+
+touch th_p_24.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_24
+#SBATCH --output=th1_p24_out
+#SBATCH --error=th1_p24_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_24 -s /N/slate/allap/Tcell/Th1/th_p_24 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_24.script
+
+sbatch th_p_24.script ----- job number: 1061006 completed 
+
+-------------------------------------
+
+touch th_p_25.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_25
+#SBATCH --output=th1_p25_out
+#SBATCH --error=th1_p25_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_25 -s /N/slate/allap/Tcell/Th1/th_p_25 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_25.script
+
+sbatch th_p_25.script ----- job number: 1061007 competed 
+
+-------------------------------------
+
+touch th_p_26.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_26
+#SBATCH --output=th1_p26_out
+#SBATCH --error=th1_p26_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_26 -s /N/slate/allap/Tcell/Th1/th_p_26 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_26.script
+
+sbatch th_p_26.script ----- job number: 1061009 completed 
+
+-------------------------------------
+
+touch th_p_27.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_27
+#SBATCH --output=th1_p27_out
+#SBATCH --error=th1_p27_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_27 -s /N/slate/allap/Tcell/Th1/th_p_27 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_27.script
+
+sbatch th_p_27.script ----- job number: 1061010 completed 
+
+-------------------------------------
+
+touch th_p_28.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_28
+#SBATCH --output=th1_p28_out
+#SBATCH --error=th1_p28_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_28 -s /N/slate/allap/Tcell/Th1/th_p_28 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_28.script
+
+sbatch th_p_28.script ----- job number: 1061011 completed 
+
+-------------------------------------
+
+touch th_p_29.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_29
+#SBATCH --output=th1_p29_out
+#SBATCH --error=th1_p29_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_29 -s /N/slate/allap/Tcell/Th1/th_p_29 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_29.script
+
+sbatch th_p_29.script ----- job number: 1061012 completed 
+
+-------------------------------------
+
+touch th_p_30.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_30
+#SBATCH --output=th1_p30_out
+#SBATCH --error=th1_p30_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_30 -s /N/slate/allap/Tcell/Th1/th_p_30 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_30.script
+
+sbatch th_p_30.script ----- job number: 1061013 completed 
+
+-------------------------------------
+
+touch th_p_31.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_31
+#SBATCH --output=th1_p31_out
+#SBATCH --error=th1_p31_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_31 -s /N/slate/allap/Tcell/Th1/th_p_31 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_31.script
+
+sbatch th_p_31.script ----- job number: 1061014 completed 
+
+-------------------------------------
+
+touch th_p_32.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_32
+#SBATCH --output=th1_p32_out
+#SBATCH --error=th1_p32_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_32 -s /N/slate/allap/Tcell/Th1/th_p_32 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_32.script
+
+sbatch th_p_32.script ----- job number: 1061015 completed 
+
+-------------------------------------
+
+touch th_p_33.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_p_33
+#SBATCH --output=th1_p33_out
+#SBATCH --error=th1_p33_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_p_33 -s /N/slate/allap/Tcell/Th1/th_p_33 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_p_33.script
+
+sbatch th_p_33.script ----- job number: 1061016 completed 
+
+_________________________________
+
+touch th_f_0.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_f_0
+#SBATCH --output=th1_f0_out
+#SBATCH --error=th1_f0_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_f_0 -s /N/slate/allap/Tcell/Th1/th_f_0 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_f_0.script
+
+sbatch th_f_0.script ----- job number: 1061017 completed 
+ 
+----------------------------
+
+touch th_f_1.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_f_1
+#SBATCH --output=th1_f1_out
+#SBATCH --error=th1_f1_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_f_1 -s /N/slate/allap/Tcell/Th1/th_f_1 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_f_1.script
+
+sbatch th_f_1.script ----- job number: 1061018 completed 
+
+
+----------------------------
+
+touch th_f_2.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_f_2
+#SBATCH --output=th1_f2_out
+#SBATCH --error=th1_f2_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_f_2 -s /N/slate/allap/Tcell/Th1/th_f_2 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_f_2.script
+
+sbatch th_f_2.script ----- job number: 1061019 completed 
+
+----------------------------
+
+touch th_f_3.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_f_3
+#SBATCH --output=th1_f3_out
+#SBATCH --error=th1_f3_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_f_3 -s /N/slate/allap/Tcell/Th1/th_f_3 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_f_3.script
+
+sbatch th_f_3.script ----- job number: 1061021 completed 
+
+----------------------------
+
+touch th_f_4.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_f_4
+#SBATCH --output=th1_f4_out
+#SBATCH --error=th1_f4_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_f_4 -s /N/slate/allap/Tcell/Th1/th_f_4 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_f_4.script
+
+sbatch th_f_4.script ----- job number: 1061022 completed 
+
+----------------------------
+
+touch th_f_5.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_f_5
+#SBATCH --output=th1_f5_out
+#SBATCH --error=th1_f5_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_f_5 -s /N/slate/allap/Tcell/Th1/th_f_5 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_f_5.script
+
+sbatch th_f_5.script ----- job number: 1061023 completed 
+
+----------------------------
+
+touch th_f_6.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_f_6
+#SBATCH --output=th1_f6_out
+#SBATCH --error=th1_f6_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_f_6 -s /N/slate/allap/Tcell/Th1/th_f_6 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_f_6.script
+
+sbatch th_f_6.script ----- job number: 1061024 completed 
+
+----------------------------
+touch th_f_7.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_f_7
+#SBATCH --output=th1_f7_out
+#SBATCH --error=th1_f7_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_f_7 -s /N/slate/allap/Tcell/Th1/th_f_7 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_f_7.script
+
+sbatch th_f_7.script ----- job number: 1061027. Completed 
+
+----------------------------
+touch th_f_8.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_f_8
+#SBATCH --output=th1_f8_out
+#SBATCH --error=th1_f8_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_f_8 -s /N/slate/allap/Tcell/Th1/th_f_8 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_f_8.script
+
+sbatch th_f_8.script ----- job number: 1061028 completed 
+
+----------------------------
+touch th_f_9.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_f_9
+#SBATCH --output=th1_f9_out
+#SBATCH --error=th1_f9_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_f_9 -s /N/slate/allap/Tcell/Th1/th_f_9 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_f_9.script
+
+sbatch th_f_9.script ----- job number: 1061029 completed 
+
+----------------------------
+touch th_f_10.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_f_10
+#SBATCH --output=th1_f10_out
+#SBATCH --error=th1_f10_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_f_10 -s /N/slate/allap/Tcell/Th1/th_f_10 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_f_10.script
+
+sbatch th_f_10.script ----- job number: 1061030 completed 
+
+----------------------------
+touch th_f_11.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_f_11
+#SBATCH --output=th1_f11_out
+#SBATCH --error=th1_f11_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_f_11 -s /N/slate/allap/Tcell/Th1/th_f_11 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_f_11.script
+
+sbatch th_f_11.script ----- job number: 1061031 completed 
+
+----------------------------
+touch th_f_12.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_f_12
+#SBATCH --output=th1_f12_out
+#SBATCH --error=th1_f12_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_f_12 -s /N/slate/allap/Tcell/Th1/th_f_12 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_f_12.script
+
+sbatch th_f_12.script ----- job number: 1061032 completed 
+----------------------------
+touch th_f_13.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_f_13
+#SBATCH --output=th1_f13_out
+#SBATCH --error=th1_f13_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_f_13 -s /N/slate/allap/Tcell/Th1/th_f_13 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_f_13.script
+
+sbatch th_f_13.script ----- job number: 1061033 completed 
+
+----------------------------
+touch th_f_14.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_f_14
+#SBATCH --output=th1_f14_out
+#SBATCH --error=th1_f14_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_f_14 -s /N/slate/allap/Tcell/Th1/th_f_14 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_f_14.script
+
+sbatch th_f_14.script ----- job number: 1061034 completed 
+
+----------------------------
+touch th_f_15.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_f_15
+#SBATCH --output=th1_f15_out
+#SBATCH --error=th1_f15_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_f_15 -s /N/slate/allap/Tcell/Th1/th_f_15 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_f_15.script
+
+sbatch th_f_15.script ----- job number: 1061035 completed 
+
+----------------------------
+touch th_f_16.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_f_16
+#SBATCH --output=th1_f16_out
+#SBATCH --error=th1_f16_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_f_16 -s /N/slate/allap/Tcell/Th1/th_f_16 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_f_16.script
+
+sbatch th_f_16.script ----- job number: 1061036 completed 
+
+----------------------------
+touch th_f_17.script
+
+echo '#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-23:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_f_17
+#SBATCH --output=th1_f17_out
+#SBATCH --error=th1_f17_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/slate/allap/Tcell/Th1/th_f_17 -s /N/slate/allap/Tcell/Th1/th_f_17 --flowcell FLO-MIN106 --kit SQK-PCS109' > th_f_17.script
+
+sbatch th_f_17.script ----- job number: 1061037 completed 
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------
+
+/N/project/Mammalian_Genomics/MAMMALEXP/Nanopore_raw_data/20181121_0439_th1cDNA112018
+
+-- two folders, one has 3 fail / pass / skip 
+
+---------------------
+
+/N/project/Mammalian_Genomics/MAMMALEXP/Nanopore_raw_data/20181121_0439_th1cDNA112018/20181121_0439_th1cDNA112018/fast5/fail/0
+
+/N/project/Mammalian_Genomics/MAMMALEXP/Nanopore_raw_data/20181121_0439_th1cDNA112018/20181121_0439_th1cDNA112018/fast5/pass/0
+
+/N/project/Mammalian_Genomics/MAMMALEXP/Nanopore_raw_data/20181121_0439_th1cDNA112018/20181121_0439_th1cDNA112018/fast5/skip/0
+
+----------------------
+/N/project/Mammalian_Genomics/MAMMALEXP/Nanopore_raw_data/20181121_0439_th1cDNA112018/20181121_0440_th1cDNA112018/fast5/fail/0
+
+/N/project/Mammalian_Genomics/MAMMALEXP/Nanopore_raw_data/20181121_0439_th1cDNA112018/20181121_0440_th1cDNA112018/fast5/pass/0
+
+----------------------------------------------------------------------------
+
+#guppy_basecaller -i <input path> -s <save path> --flowcell <flowcell name> --kit <kit name>
+
+module load guppy/3.1.5-cpu
+
+guppy_basecaller -i /N/project/Mammalian_Genomics/MAMMALEXP/Nanopore_raw_data/20181121_0439_th1cDNA112018/20181121_0439_th1cDNA112018/fast5/fail/0 -s /N/u/allap/Carbonate/T_cell_Data/Th1_cell/fail1 --flowcell FLO-MIN106 --kit SQK-PCS109 - completed 
+
+guppy_basecaller -i /N/project/Mammalian_Genomics/MAMMALEXP/Nanopore_raw_data/20181121_0439_th1cDNA112018/20181121_0439_th1cDNA112018/fast5/pass/0 -s /N/u/allap/Carbonate/T_cell_Data/Th1_cell/pass1 --flowcell FLO-MIN106 --kit SQK-PCS109 - completed 
+
+guppy_basecaller -i /N/project/Mammalian_Genomics/MAMMALEXP/Nanopore_raw_data/20181121_0439_th1cDNA112018/20181121_0439_th1cDNA112018/fast5/skip/0 -s /N/u/allap/Carbonate/T_cell_Data/Th1_cell/skip1 --flowcell FLO-MIN106 --kit SQK-PCS109 - completed 
+
+----------------------------------------------------------------------------
+
+Submit jobs on Carbonate: 
+
+touch Th1_fail1.script
+
+echo ' ..... ' > Th1_fail1.script
+
+sbatch Th1_fail1.script ----- job number: 1001339 - completed 
+
+#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-0:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_fail
+#SBATCH --output=th1_fail_out
+#SBATCH --error=th1_fail_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i /N/project/Mammalian_Genomics/MAMMALEXP/Nanopore_raw_data/20181121_0439_th1cDNA112018/20181121_0440_th1cDNA112018/fast5/fail/0 -s /N/u/allap/Carbonate/T_cell_Data/Th1_cell/fail2 --flowcell FLO-MIN106 --kit SQK-PCS109
+
+srun -p general --pty bash
+_________________________________
+
+touch Th1_pass1.script
+
+echo ' ..... ' > Th1_pass1.script
+
+sbatch Th1_pass1.script ----- job number: 1001340 - completed 
+
+#!/bin/bash
+#####  Constructed by HPC everywhere #####
+#SBATCH --mail-user=allap@iu.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=2-0:59:00
+#SBATCH --mem=54gb
+#SBATCH --mail-type=FAIL,BEGIN,END
+#SBATCH --job-name=th1_pass1
+#SBATCH --output=th1_pass1_out
+#SBATCH --error=th1_pass1_error
+
+######  Module commands #####
+module load guppy/3.1.5-cpu
+
+######  Job commands go below this line #####
+srun guppy_basecaller -i //N/project/Mammalian_Genomics/MAMMALEXP/Nanopore_raw_data/20181121_0439_th1cDNA112018/20181121_0440_th1cDNA112018/fast5/pass/0 -s /N/u/allap/Carbonate/T_cell_Data/Th1_cell/pass2 --flowcell FLO-MIN106 --kit SQK-PCS109
+
+srun -p general --pty bash
+
+----------------------------------------------------------------------------
+
+
+
+
